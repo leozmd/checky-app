@@ -1,0 +1,14 @@
+@import "mq";
+
+.clases- {
+  &group {
+    display: flex;
+    background-color: rgb(244, 240, 246);
+  }
+  &group.layout {
+    position: relative;
+    overflow: hidden;
+    min-height: 731px;
+    flex-grow: 1;
+  }
+}
